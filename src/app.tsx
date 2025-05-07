@@ -4,9 +4,9 @@ export function App() {
   return (
     <div>
       <h1>Learn React TypeScript</h1>
-      <Button />
-      <Button />
-      <Button />
+      <Button>A</Button>
+      <Button>B</Button>
+      <Button>C</Button>
     </div>
   );
 }

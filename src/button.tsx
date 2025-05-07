@@ -1,3 +1,3 @@
-export function Button() {
-  return <button>Example</button>;
+export function Button({ children }: { children: string }) {
+  return <button>{children}</button>;
 }
